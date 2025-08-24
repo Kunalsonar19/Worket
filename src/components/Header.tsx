@@ -18,7 +18,7 @@ const Header = () => {
               <GraduationCap className="h-8 w-8 text-accent-foreground" />
             </div>
             <div>
-              <h1 className="text-2xl font-bold">Worket India Private Ltd</h1>
+              <h1 className="text-xl font-bold">Worket India Private Ltd</h1>
               <p className="text-primary-foreground/80 text-sm italic">
                 Empowering the future, today.
               </p>

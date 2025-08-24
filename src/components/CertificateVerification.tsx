@@ -51,7 +51,7 @@ const CertificateVerification = () => {
       <div className="max-w-4xl mx-auto">
         {/* Header */}
         <div className="text-center mb-12">
-          <h1 className="text-4xl font-bold text-primary mb-4">
+          <h1 className="text-3xl font-bold text-primary mb-4">
             Certificate Verification
           </h1>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
@@ -69,7 +69,7 @@ const CertificateVerification = () => {
             </CardTitle>
           </CardHeader>
           <CardContent>
-            <div className="flex gap-4">
+            <div className="flex gap-4 flex-col">
               <Input
                 placeholder="Enter certificate number (e.g., CERT-2024-001)"
                 value={certificateNumber}
