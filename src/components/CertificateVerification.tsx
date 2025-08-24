@@ -126,14 +126,14 @@ const CertificateVerification = () => {
               ) : (
                 <div className="space-y-6">
                   {/* Verification Status */}
-                  <div className="flex items-center justify-between bg-success/10 p-4 rounded-lg">
+                  <div className="flex flex-col items-center justify-between bg-success/10 p-4 rounded-lg">
                     <Badge
                       variant="outline"
-                      className="border-success text-success"
+                      className="border-success text-success py-1"
                     >
                       ✅ VERIFIED
                     </Badge>
-                    <span className="text-sm text-muted-foreground">
+                    <span className="text-sm text-muted-foreground mt-2">
                       Certificate #{searchResult.certificateNumber}
                     </span>
                   </div>
