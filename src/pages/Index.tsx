@@ -92,32 +92,6 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Stats Section */}
-      <section className="py-16">
-        <div className="max-w-7xl mx-auto px-4">
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
-            <div>
-              <div className="text-4xl font-bold text-primary mb-2">
-                10,000+
-              </div>
-              <div className="text-muted-foreground">Certificates Issued</div>
-            </div>
-            <div>
-              <div className="text-4xl font-bold text-primary mb-2">500+</div>
-              <div className="text-muted-foreground">Partner Companies</div>
-            </div>
-            <div>
-              <div className="text-4xl font-bold text-primary mb-2">25+</div>
-              <div className="text-muted-foreground">Countries</div>
-            </div>
-            <div>
-              <div className="text-4xl font-bold text-primary mb-2">99.9%</div>
-              <div className="text-muted-foreground">Verification Accuracy</div>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* How It Works */}
       <section className="py-16 bg-secondary/30">
         <div className="max-w-7xl mx-auto px-4">
